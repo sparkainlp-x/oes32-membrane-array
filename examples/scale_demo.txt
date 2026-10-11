@@ -1,0 +1,12 @@
+SYNTHETIC STRUCTURAL DEMO — not hardware performance or field evidence
+   slots  32-slot cells   accepted   max residual
+      32              1       True       0.010000
+     512             16       True       0.010000
+    1024             32       True       0.010000
+    2048             64       True       0.010000
+    4096            128       True       0.010000
+    8192            256       True       0.010000
+   16384            512       True       0.010000
+   65536           2048       True       0.010000
+
+Every value above comes from a generated vector and one software state transition.

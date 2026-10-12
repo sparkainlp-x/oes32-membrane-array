@@ -1,5 +1,7 @@
 # OES32 Membrane Array
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23307951.svg)](https://doi.org/10.5281/zenodo.23307951)
+
 A small companion prototype that composes the existing **fixed 32-slot OES32 membrane contract** into larger arrays without changing the upstream `oes32-membrane-shield` API. It supports **32 through 65,536 channel slots**, always as a whole number of 32-slot cells; the included scale demonstration exercises 2,048, 4,096, 8,192, 16,384 and 65,536.
 
 > This is a software state-machine prototype using generated numbers. It is not a physical membrane, sensor array, hardware implementation, field result, medical device, or performance benchmark.
@@ -46,3 +48,7 @@ This design is intentionally a **scale-out wrapper**, not a claim that more mode
 ## License
 
 AGPL-3.0-only, matching the current upstream membrane shield. See [LICENSE](LICENSE) for the full terms.
+
+## Cite
+
+Concept DOI (all versions): [10.5281/zenodo.23307951](https://doi.org/10.5281/zenodo.23307951). v0.1.0: [10.5281/zenodo.23307952](https://doi.org/10.5281/zenodo.23307952). See [CITATION.cff](CITATION.cff).

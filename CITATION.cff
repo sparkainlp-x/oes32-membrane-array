@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+title: "OES32 Membrane Array: atomic scale-out composition of fixed 32-slot OES32 membrane cells"
+type: software
+authors:
+  - family-names: Brisson
+    given-names: Jean-François
+    affiliation: "Spark AI NLP, Fredericton, New Brunswick, Canada"
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+repository-code: "https://github.com/sparkainlp-x/oes32-membrane-array"
+url: "https://sparkainlpx.xyz"
+abstract: >-
+  OES32 Membrane Array is a small Python companion to oes32-membrane-shield.
+  It composes the fixed 32-slot OES32 membrane contract into arrays of 32 to
+  65,536 channel slots, always as a whole number of independent 32-slot cells,
+  without changing the upstream API. One external Ed25519 capability
+  authorizes the whole flattened frame and binds the channel count. Every cell
+  is validated before any state changes, so an update is accepted or rejected
+  as one transaction; a residual breach latches an array-wide breaker that
+  needs a guardian reset. Calibration requires independent CALIBRATEUR and
+  GARDIEN approvals, and symmetry rules apply within each cell. Scope: a
+  software state-machine prototype on generated numbers. It is not a physical
+  membrane, sensor array, hardware implementation, field result, medical
+  device or performance benchmark; slot counts are configuration counts only,
+  and no latency, throughput or independent security review is claimed.
+keywords:
+  - research software
+  - state machine
+  - OES32
+  - Ed25519
+  - atomic transactions
+  - synthetic data
+  - Python
+  - New Brunswick
+license: AGPL-3.0-only
+version: "0.1.0"
+date-released: "2026-10-11"
